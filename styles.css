@@ -1,0 +1,40 @@
+:root {
+  --color-white: #f1f1f1;
+  --color-gray-100: #a3a1a3;
+  --color-blue: #3888c1;
+  --font-family: "Nunito", sans-serif;
+  --font-md: 18px;
+  --font-xl: 40px;
+  --font-bold: 700;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-xl: 32px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0 100px;
+  font-family: var(--font-family);
+}
+h1 {
+  font-weight: var(--font-bold);
+  text-align: center;
+  padding: var(--space-xl) 0;
+  font-size: var(--font-xl);
+}
+.autocomplete {
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+}
+input {
+  border: 1px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  padding: var(--space-sm);
+  font-size: var(--font-md);
+  background-color: var(--color-white);
+  width: 100%;
+}
+/* Code */
